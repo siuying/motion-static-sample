@@ -1,4 +1,4 @@
-class MotionAppDelegate
+class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     setup_timer
     true
