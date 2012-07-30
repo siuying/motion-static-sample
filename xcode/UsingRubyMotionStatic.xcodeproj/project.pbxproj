@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541B275015C6DC0400888455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B274F15C6DC0400888455 /* UIKit.framework */; };
+		541B275215C6DC0400888455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B275115C6DC0400888455 /* Foundation.framework */; };
+		541B275415C6DC0400888455 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B275315C6DC0400888455 /* CoreGraphics.framework */; };
+		541B275A15C6DC0400888455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 541B275815C6DC0400888455 /* InfoPlist.strings */; };
+		541B275C15C6DC0400888455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B275B15C6DC0400888455 /* main.m */; };
+		541B276015C6DC0400888455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B275F15C6DC0400888455 /* AppDelegate.m */; };
+		541B276315C6DC0400888455 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B276215C6DC0400888455 /* ViewController.m */; };
+		541B276615C6DC0400888455 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541B276415C6DC0400888455 /* ViewController.xib */; };
+		541B277915C6DD0E00888455 /* motion-static-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277815C6DD0E00888455 /* motion-static-universal.a */; };
+		541B277C15C6DD2700888455 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277B15C6DD2700888455 /* libc++.dylib */; };
+		541B277E15C6DD2E00888455 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277D15C6DD2E00888455 /* libc++abi.dylib */; };
+		541B278015C6DD3400888455 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277F15C6DD3400888455 /* libstdc++.dylib */; };
+		541B278215C6DD3A00888455 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B278115C6DD3A00888455 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		541B274B15C6DC0400888455 /* UsingRubyMotionStatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingRubyMotionStatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B274F15C6DC0400888455 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		541B275115C6DC0400888455 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		541B275315C6DC0400888455 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		541B275715C6DC0400888455 /* UsingRubyMotionStatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsingRubyMotionStatic-Info.plist"; sourceTree = "<group>"; };
+		541B275915C6DC0400888455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		541B275B15C6DC0400888455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541B275D15C6DC0400888455 /* UsingRubyMotionStatic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsingRubyMotionStatic-Prefix.pch"; sourceTree = "<group>"; };
+		541B275E15C6DC0400888455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		541B275F15C6DC0400888455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541B276115C6DC0400888455 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		541B276215C6DC0400888455 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		541B276515C6DC0400888455 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		541B277815C6DD0E00888455 /* motion-static-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "motion-static-universal.a"; path = "../build/motion-static-universal.a"; sourceTree = "<group>"; };
+		541B277B15C6DD2700888455 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		541B277D15C6DD2E00888455 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		541B277F15C6DD3400888455 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		541B278115C6DD3A00888455 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541B274815C6DC0400888455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B278215C6DD3A00888455 /* libicucore.dylib in Frameworks */,
+				541B278015C6DD3400888455 /* libstdc++.dylib in Frameworks */,
+				541B277E15C6DD2E00888455 /* libc++abi.dylib in Frameworks */,
+				541B277C15C6DD2700888455 /* libc++.dylib in Frameworks */,
+				541B275015C6DC0400888455 /* UIKit.framework in Frameworks */,
+				541B275215C6DC0400888455 /* Foundation.framework in Frameworks */,
+				541B275415C6DC0400888455 /* CoreGraphics.framework in Frameworks */,
+				541B277915C6DD0E00888455 /* motion-static-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541B274015C6DC0400888455 = {
+			isa = PBXGroup;
+			children = (
+				541B275515C6DC0400888455 /* UsingRubyMotionStatic */,
+				541B274E15C6DC0400888455 /* Frameworks */,
+				541B274C15C6DC0400888455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541B274C15C6DC0400888455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541B274B15C6DC0400888455 /* UsingRubyMotionStatic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541B274E15C6DC0400888455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541B278115C6DD3A00888455 /* libicucore.dylib */,
+				541B277F15C6DD3400888455 /* libstdc++.dylib */,
+				541B277D15C6DD2E00888455 /* libc++abi.dylib */,
+				541B277B15C6DD2700888455 /* libc++.dylib */,
+				541B277815C6DD0E00888455 /* motion-static-universal.a */,
+				541B274F15C6DC0400888455 /* UIKit.framework */,
+				541B275115C6DC0400888455 /* Foundation.framework */,
+				541B275315C6DC0400888455 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		541B275515C6DC0400888455 /* UsingRubyMotionStatic */ = {
+			isa = PBXGroup;
+			children = (
+				541B275E15C6DC0400888455 /* AppDelegate.h */,
+				541B275F15C6DC0400888455 /* AppDelegate.m */,
+				541B276115C6DC0400888455 /* ViewController.h */,
+				541B276215C6DC0400888455 /* ViewController.m */,
+				541B276415C6DC0400888455 /* ViewController.xib */,
+				541B275615C6DC0400888455 /* Supporting Files */,
+			);
+			path = UsingRubyMotionStatic;
+			sourceTree = "<group>";
+		};
+		541B275615C6DC0400888455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				541B275715C6DC0400888455 /* UsingRubyMotionStatic-Info.plist */,
+				541B275815C6DC0400888455 /* InfoPlist.strings */,
+				541B275B15C6DC0400888455 /* main.m */,
+				541B275D15C6DC0400888455 /* UsingRubyMotionStatic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541B274A15C6DC0400888455 /* UsingRubyMotionStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B276915C6DC0400888455 /* Build configuration list for PBXNativeTarget "UsingRubyMotionStatic" */;
+			buildPhases = (
+				541B274715C6DC0400888455 /* Sources */,
+				541B274815C6DC0400888455 /* Frameworks */,
+				541B274915C6DC0400888455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsingRubyMotionStatic;
+			productName = UsingRubyMotionStatic;
+			productReference = 541B274B15C6DC0400888455 /* UsingRubyMotionStatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541B274215C6DC0400888455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 541B274515C6DC0400888455 /* Build configuration list for PBXProject "UsingRubyMotionStatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 541B274015C6DC0400888455;
+			productRefGroup = 541B274C15C6DC0400888455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541B274A15C6DC0400888455 /* UsingRubyMotionStatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541B274915C6DC0400888455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B275A15C6DC0400888455 /* InfoPlist.strings in Resources */,
+				541B276615C6DC0400888455 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541B274715C6DC0400888455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B275C15C6DC0400888455 /* main.m in Sources */,
+				541B276015C6DC0400888455 /* AppDelegate.m in Sources */,
+				541B276315C6DC0400888455 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		541B275815C6DC0400888455 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B275915C6DC0400888455 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		541B276415C6DC0400888455 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B276515C6DC0400888455 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541B276715C6DC0400888455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		541B276815C6DC0400888455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541B276A15C6DC0400888455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsingRubyMotionStatic/UsingRubyMotionStatic-Prefix.pch";
+				INFOPLIST_FILE = "UsingRubyMotionStatic/UsingRubyMotionStatic-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		541B276B15C6DC0400888455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsingRubyMotionStatic/UsingRubyMotionStatic-Prefix.pch";
+				INFOPLIST_FILE = "UsingRubyMotionStatic/UsingRubyMotionStatic-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541B274515C6DC0400888455 /* Build configuration list for PBXProject "UsingRubyMotionStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B276715C6DC0400888455 /* Debug */,
+				541B276815C6DC0400888455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B276915C6DC0400888455 /* Build configuration list for PBXNativeTarget "UsingRubyMotionStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B276A15C6DC0400888455 /* Debug */,
+				541B276B15C6DC0400888455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541B274215C6DC0400888455 /* Project object */;
+}
