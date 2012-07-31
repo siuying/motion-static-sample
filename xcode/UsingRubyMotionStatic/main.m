@@ -15,7 +15,6 @@ int main(int argc, char *argv[])
     @autoreleasepool {
         void RubyMotionInit(int, char **);
         RubyMotionInit(argc, argv);
-
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

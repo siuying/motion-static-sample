@@ -5,6 +5,7 @@ require 'motion/project'
 require 'bundler'
 Bundler.setup
 
+require 'bubble-wrap/core'
 require 'bubble-wrap/reactor'
 
 Motion::Project::App.setup do |app|

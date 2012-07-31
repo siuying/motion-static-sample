@@ -20,6 +20,7 @@
 		541B277E15C6DD2E00888455 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277D15C6DD2E00888455 /* libc++abi.dylib */; };
 		541B278015C6DD3400888455 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B277F15C6DD3400888455 /* libstdc++.dylib */; };
 		541B278215C6DD3A00888455 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B278115C6DD3A00888455 /* libicucore.dylib */; };
+		5429F78415C76C5500D71F78 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429F78315C76C5500D71F78 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		541B277D15C6DD2E00888455 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		541B277F15C6DD3400888455 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		541B278115C6DD3A00888455 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		5429F78315C76C5500D71F78 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5429F78415C76C5500D71F78 /* MobileCoreServices.framework in Frameworks */,
 				541B278215C6DD3A00888455 /* libicucore.dylib in Frameworks */,
 				541B278015C6DD3400888455 /* libstdc++.dylib in Frameworks */,
 				541B277E15C6DD2E00888455 /* libc++abi.dylib in Frameworks */,
@@ -87,6 +90,7 @@
 				541B277D15C6DD2E00888455 /* libc++abi.dylib */,
 				541B277B15C6DD2700888455 /* libc++.dylib */,
 				541B277815C6DD0E00888455 /* motion-static-universal.a */,
+				5429F78315C76C5500D71F78 /* MobileCoreServices.framework */,
 				541B274F15C6DC0400888455 /* UIKit.framework */,
 				541B275115C6DC0400888455 /* Foundation.framework */,
 				541B275315C6DC0400888455 /* CoreGraphics.framework */,
